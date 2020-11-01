@@ -14,6 +14,6 @@ public class Support {
   private static final IFn newEvent = Clojure.var("cfj.core", "->EventImpl");
 
   public static Event createEvent(String name) {
-    return (Event) newEvent.invoke(name, new Date());
+    return (Event) newEvent.invoke(name);
   }
 }
