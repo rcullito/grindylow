@@ -34,8 +34,7 @@ fun robRange2(range1: FloatRange, range2: MutableList<Int>, value: Float): Float
 fun main(args: Array<String>) {
   var e = Support.createEvent("abc")
   println(e.getName())
-  println(e.getTimestamp())
-  println(pos(1.82))
+  println(e.isPositive(1.82))
 }
 
 
